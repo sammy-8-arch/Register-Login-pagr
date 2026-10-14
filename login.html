@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="login">
+        <div class="login">
+            <div class="title">
+                <h3>Welcome Back</h3>
+                <p>Please enter your details to login</p>
+            </div>
+
+            <div class="email-container">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Enter your password">
+                <input type="checkbox" onclick="password.type=this.checked?'text' : 'password'">
+            </div>
+
+            <button>Login</button>
+            <div class="othercase">
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

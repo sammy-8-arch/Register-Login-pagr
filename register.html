@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div id="register">
+        <div class="register">
+            <div class="title">
+                <h3>Welcome to our Community</h3>
+                <p>We appreciate you very much</p>
+            </div>
+
+            <div class="name-container">
+                <input type="text" placeholder="First Name">  
+                <input type="text" placeholder="Last Name">
+            </div>
+
+            <div class="info">
+                <input type="email" placeholder="Enter your Email">
+                <input type="number" placeholder="Phone No">
+            </div>
+
+            <div class="pass">
+                <input type="password" id="password" placeholder="Enter strong password">
+                <input type="checkbox" onclick="password.type=this.checked?'text' : 'password'">
+            </div>
+
+            <div class="confirm-pass">
+                <input type="password" id="confirmPass" placeholder="Confirm your password">
+                <input type="checkbox" onclick="confirmPass.type=this.checked?'text' : 'password'">
+            </div>
+
+            <button>Register</button>
+            <div class="othercase">
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
